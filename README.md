@@ -41,7 +41,9 @@ $ python3 face_overlay.py 0
 
 
 # License
-This software is released under the MIT License, see LICENSE.
+This software is released under the MIT License except for `karaage_icon.png` , see LICENSE 
+
+NOT USE `karaage_icon.png` for commercial use (hobby use is OK).
 
 # Authors
 - karaage0703
