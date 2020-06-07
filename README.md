@@ -13,20 +13,20 @@ Face overlay app sample on pyto(iOS)
 # Setup
 ## iOS
 - Install Pyto
-- Copy `face_overlay.py` code and `karaage_icon.png` to your iPhone
-
+- Copy `face_overlay.py` code and [karaage_icon.png](https://raw.githubusercontent.com/karaage0703/karaage_icon/master/karaage_icon.png) to your iPhone
 
 ## PC
-Clone this repository:
+Clone this repository.
 
 ```sh
 $ git clone https://github.com/karaage0703/face_overlay_pyto/
 ```
 
-Download haar-like feature for face detection:
+Download haar-like feature for face detection and karaage_icon.
 
 ```sh
 $ wget https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_alt.xml
+$ wget https://raw.githubusercontent.com/karaage0703/karaage_icon/master/karaage_icon.png
 ```
 
 # Usage
@@ -41,9 +41,7 @@ $ python3 face_overlay.py 0
 
 
 # License
-This software is released under the MIT License except for `karaage_icon.png` , see LICENSE 
-
-NOT USE `karaage_icon.png` for commercial use (hobby use is OK).
+This software is released under the MIT License, see LICENSE 
 
 # Authors
 - karaage0703
